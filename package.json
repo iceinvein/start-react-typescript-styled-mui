@@ -28,7 +28,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "./node_modules/.bin/eslint src/*",
-    "prepare-husky": "./node_modules/.bin/husky install && ./node_modules/.bin/husky add .husky/pre-commit \"yarn lint && yarn test\""
+    "prepare-husky": "./node_modules/.bin/husky install && ./node_modules/.bin/husky add .husky/pre-commit \"yarn lint && yarn test --watchAll=false\""
   },
   "browserslist": {
     "production": [
